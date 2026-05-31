@@ -1,3 +1,21 @@
+# Rapport de TP
+
+## Application CRUD de gestion des utilisateurs
+
+**Projet Full-Stack JavaScript**
+
+- Back-end : Node.js / Express.js
+- Front-end : React.js
+- Type : CRUD en mémoire
+
+**Auteur :** _à compléter_
+
+**Encadrant :** _à compléter_
+
+**Date :** Mai 2026
+
+---
+
 # Rapport de TP - Application CRUD de gestion des utilisateurs
 
 ## 1. Présentation du projet
@@ -75,7 +93,9 @@ Le back-end est développé avec Express.js et écoute sur le port 5000. Il expo
 
 Cette image montre la réponse JSON renvoyée par l'API lors de l'appel à GET /users.
 
-![Réponse du back-end](./images/backend.png)
+<p align="center">
+  <img src="./images/backend.png" alt="Réponse du back-end" width="900" />
+</p>
 
 ## 5. Partie front-end
 
@@ -93,31 +113,41 @@ Le front-end est développé avec React.js dans un seul composant principal: App
 
 Cette vue présente l'interface complète avec le formulaire à gauche et la liste des utilisateurs à droite.
 
-![Interface principale](./images/interface.png)
+<p align="center">
+  <img src="./images/interface.png" alt="Interface principale" width="900" />
+</p>
 
 ### Liste des utilisateurs
 
 La liste affiche les colonnes ID, Nom, Email, Rôle et Actions.
 
-![Liste des utilisateurs](./images/liste.png)
+<p align="center">
+  <img src="./images/liste.png" alt="Liste des utilisateurs" width="900" />
+</p>
 
 ### Formulaire d'ajout
 
 Le formulaire permet d'ajouter un nouvel utilisateur en remplissant le nom, l'email et le rôle.
 
-![Formulaire d'ajout](./images/ajoutee.png)
+<p align="center">
+  <img src="./images/ajoutee.png" alt="Formulaire d'ajout" width="900" />
+</p>
 
 ### Formulaire de modification
 
 Lorsque l'utilisateur clique sur Modifier, le formulaire passe en mode édition avec les valeurs préremplies.
 
-![Formulaire de modification](./images/modifee.png)
+<p align="center">
+  <img src="./images/modifee.png" alt="Formulaire de modification" width="900" />
+</p>
 
 ### Suppression d'un utilisateur
 
 La suppression affiche une boîte de dialogue de confirmation avant l'exécution de l'action.
 
-![Confirmation de suppression](./images/suprimer.png)
+<p align="center">
+  <img src="./images/suprimer.png" alt="Confirmation de suppression" width="900" />
+</p>
 
 ## 6. Installation et lancement
 
