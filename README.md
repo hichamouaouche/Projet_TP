@@ -8,9 +8,9 @@
 - Front-end : React.js
 - Type : CRUD en mémoire
 
-**Auteur :** _à c
+**Auteur :** HICHAM OUAOUCHE
 
-**Encadrant :** _à compléter_
+**Encadrant :** Oumayma AGHERAI
 
 **Date :** Mai 2026
 
@@ -93,9 +93,7 @@ Le back-end est développé avec Express.js et écoute sur le port 5000. Il expo
 
 Cette image montre la réponse JSON renvoyée par l'API lors de l'appel à GET /users.
 
-<p align="center">
-  <img src="images/backend.png" alt="Réponse du back-end" width="900" />
-</p>
+![Réponse du back-end](images/backend.png)
 
 ## 5. Partie front-end
 
@@ -113,41 +111,31 @@ Le front-end est développé avec React.js dans un seul composant principal: App
 
 Cette vue présente l'interface complète avec le formulaire à gauche et la liste des utilisateurs à droite.
 
-<p align="center">
-  <img src="images/interface.png" alt="Interface principale" width="900" />
-</p>
+![Interface principale](images/interface.png)
 
 ### Liste des utilisateurs
 
 La liste affiche les colonnes ID, Nom, Email, Rôle et Actions.
 
-<p align="center">
-  <img src="images/liste.png" alt="Liste des utilisateurs" width="900" />
-</p>
+![Liste des utilisateurs](images/liste.png)
 
 ### Formulaire d'ajout
 
 Le formulaire permet d'ajouter un nouvel utilisateur en remplissant le nom, l'email et le rôle.
 
-<p align="center">
-  <img src="images/ajoutee.png" alt="Formulaire d'ajout" width="900" />
-</p>
+![Formulaire d'ajout](images/ajoutee.png)
 
 ### Formulaire de modification
 
 Lorsque l'utilisateur clique sur Modifier, le formulaire passe en mode édition avec les valeurs préremplies.
 
-<p align="center">
-  <img src="images/modifee.png" alt="Formulaire de modification" width="900" />
-</p>
+![Formulaire de modification](images/modifee.png)
 
 ### Suppression d'un utilisateur
 
 La suppression affiche une boîte de dialogue de confirmation avant l'exécution de l'action.
 
-<p align="center">
-  <img src="images/suprimer.png" alt="Confirmation de suppression" width="900" />
-</p>
+![Confirmation de suppression](images/suprimer.png)
 
 ## 6. Installation et lancement
 
