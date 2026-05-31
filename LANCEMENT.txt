@@ -1,0 +1,84 @@
+════════════════════════════════════════════════════════════════════════════════
+🚀 INSTRUCTIONS DE LANCEMENT RAPIDE - APPLICATION CRUD
+════════════════════════════════════════════════════════════════════════════════
+
+📌 PREMIÈRE UTILISATION (Installation des dépendances)
+════════════════════════════════════════════════════════════════════════════════
+
+1️⃣ Ouvrir 2 terminaux PowerShell/CMD dans le dossier du projet
+
+─────────────────────────────────────────────────────────────────────────────
+TERMINAL 1 - Installation et lancement du BACK-END
+─────────────────────────────────────────────────────────────────────────────
+
+# Naviguer vers le dossier backend
+cd backend
+
+# Installer les dépendances Express et CORS
+npm install
+
+# Lancer le serveur (reste ouvert)
+npm start
+
+# Vous devriez voir:
+# 🚀 Serveur Express démarré sur http://localhost:5000
+# 📡 En attente de requêtes API...
+
+─────────────────────────────────────────────────────────────────────────────
+TERMINAL 2 - Installation et lancement du FRONT-END
+─────────────────────────────────────────────────────────────────────────────
+
+# Naviguer vers le dossier frontend
+cd frontend
+
+# Installer les dépendances React
+npm install
+
+# Lancer l'application React (reste ouvert)
+npm start
+
+# Le navigateur devrait s'ouvrir automatiquement sur:
+# http://localhost:3000
+
+════════════════════════════════════════════════════════════════════════════════
+✅ UTILISATION SUIVANTE (Les dépendances sont déjà installées)
+════════════════════════════════════════════════════════════════════════════════
+
+TERMINAL 1:
+cd backend && npm start
+
+TERMINAL 2:
+cd frontend && npm start
+
+════════════════════════════════════════════════════════════════════════════════
+🔧 COMMANDES UTILES
+════════════════════════════════════════════════════════════════════════════════
+
+# Arrêter un serveur
+Ctrl + C
+
+# Réinstaller les dépendances (en cas de problème)
+rm -r node_modules (sur Mac/Linux)
+rmdir /s node_modules (sur Windows)
+npm install
+
+# Nettoyer le cache npm (en cas de problème)
+npm cache clean --force
+
+════════════════════════════════════════════════════════════════════════════════
+🌐 ACCÈS À L'APPLICATION
+════════════════════════════════════════════════════════════════════════════════
+
+Back-End:  http://localhost:5000
+Front-End: http://localhost:3000
+
+════════════════════════════════════════════════════════════════════════════════
+📋 FONCTIONNALITÉS DE L'APPLICATION
+════════════════════════════════════════════════════════════════════════════════
+
+✅ Afficher tous les utilisateurs
+✅ Ajouter un nouvel utilisateur
+✅ Modifier un utilisateur existant
+✅ Supprimer un utilisateur
+
+════════════════════════════════════════════════════════════════════════════════
