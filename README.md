@@ -75,7 +75,7 @@ Le back-end est développé avec Express.js et écoute sur le port 5000. Il expo
 
 Cette image montre la réponse JSON renvoyée par l'API lors de l'appel à GET /users.
 
-![Réponse du back-end](images/backend.png)
+![Réponse du back-end](./images/backend.png)
 
 ## 5. Partie front-end
 
@@ -93,31 +93,31 @@ Le front-end est développé avec React.js dans un seul composant principal: App
 
 Cette vue présente l'interface complète avec le formulaire à gauche et la liste des utilisateurs à droite.
 
-![Interface principale](images/interface.png)
+![Interface principale](./images/interface.png)
 
 ### Liste des utilisateurs
 
 La liste affiche les colonnes ID, Nom, Email, Rôle et Actions.
 
-![Liste des utilisateurs](images/liste.png)
+![Liste des utilisateurs](./images/liste.png)
 
 ### Formulaire d'ajout
 
 Le formulaire permet d'ajouter un nouvel utilisateur en remplissant le nom, l'email et le rôle.
 
-![Formulaire d'ajout](images/ajoutee.png)
+![Formulaire d'ajout](./images/ajoutee.png)
 
 ### Formulaire de modification
 
 Lorsque l'utilisateur clique sur Modifier, le formulaire passe en mode édition avec les valeurs préremplies.
 
-![Formulaire de modification](images/modifee.png)
+![Formulaire de modification](./images/modifee.png)
 
 ### Suppression d'un utilisateur
 
 La suppression affiche une boîte de dialogue de confirmation avant l'exécution de l'action.
 
-![Confirmation de suppression](images/suprimer.png)
+![Confirmation de suppression](./images/suprimer.png)
 
 ## 6. Installation et lancement
 
